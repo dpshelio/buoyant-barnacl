@@ -12,7 +12,7 @@
 
 
 
-<title>Buoyant Barnacle: Using RMarkdown</title>
+<title>Buoyant Barnacle: Using RMarkdown for fancy lessons</title>
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicons/cp/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/cp/apple-touch-icon-114x114.png" />
@@ -74,7 +74,7 @@
 
 
 
-<meta property="og:title" content="Using RMarkdown" />
+<meta property="og:title" content="Using RMarkdown for fancy lessons" />
 
 
 
@@ -204,7 +204,7 @@
 <div class="row">
   <div class="contents col-md-9">
     <div class="page-header">
-      <h1>Using RMarkdown</h1>
+      <h1>Using RMarkdown for fancy lessons</h1>
     </div>
 
 <div class="section level2 objectives">
@@ -212,7 +212,7 @@
 <div class="row">
 <div class="col-md-3">
 <p><strong>Teaching: </strong> 10<br />
-<strong>Exercises: </strong> 2</p>
+<strong>Exercises: </strong> 25</p>
 </div>
 <div class="col-md-9">
 <p><strong>Questions</strong></p>
@@ -271,13 +271,29 @@
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">col =</span> <span class="fu">c</span>(<span class="st">&quot;deepskyblue&quot;</span>, <span class="st">&quot;yellow&quot;</span>, <span class="st">&quot;yellow3&quot;</span>), </span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">border =</span> <span class="cn">FALSE</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
-<p><img src="fig/01-introduction-rendered-pyramid-1.png" title="plot of chunk pyramid" alt="plot of chunk pyramid" style="display: block; margin: auto;" /></p>
+<p><img src="fig/02-next-episode-rendered-pyramid-1.png" title="plot of chunk pyramid" alt="plot of chunk pyramid" style="display: block; margin: auto;" /></p>
 </div>
 <div id="math" class="section level2">
 <h2>Math</h2>
 <p>One of our episodes contains <span class="math inline">\(\LaTeX\)</span> equations when describing how to create dynamic reports with {knitr}, so we now use mathjax to describe this:</p>
 <p><code>$\alpha = \dfrac{1}{(1 - \beta)^2}$</code> becomes: <span class="math inline">\(\alpha = \dfrac{1}{(1 - \beta)^2}\)</span></p>
 <p>Cool, right?</p>
+</div>
+<div class="challenge">
+<div id="challenge-x-can-you-read-latex" class="section level2">
+<h2>Challenge x: Can you read latex?</h2>
+<p>What is the output of this command?</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode latex"><code class="sourceCode latex"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ss">$</span><span class="sc">\alpha</span><span class="ss"> = </span><span class="sc">\partial</span><span class="ss">_{x}{(1 - </span><span class="sc">\beta</span><span class="ss">)^2}$</span></span></code></pre></div>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(\alpha = \dfrac{x}{(1 - \beta)^2}\)</span></li>
+<li><span class="math inline">\(\alpha = \partial_{x}{(1 - \beta)^2}\)</span></li>
+<li><span class="math inline">\(\alpha = \sum_{i=0}^{x}(1 - \beta)^2\)</span></li>
+</ol>
+</div>
+<div class="section level2 solution">
+<h2>Solution</h2>
+<p>It’s: <span class="math inline">\(\alpha = \partial_{x}{(1 - \beta)^2}\)</span> as <code>$\parial_{a}{b}$</code> creates <span class="math inline">\(\partial_{a}{b}\)</span></p>
+</div>
 </div>
 <div class="section level2 keypoints">
 <h2>Keypoints</h2>
@@ -309,7 +325,7 @@
   <div class="row">
     <div class="col-xs-1">
       <h3 class="text-left">
-        <a href="index.html"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span><span class="sr-only">previous episode</span></a>
+        <a href="01-introduction.html"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span><span class="sr-only">previous episode</span></a>
       </h3>
     </div>
     <div class="col-xs-10">
@@ -317,7 +333,7 @@
     </div>
     <div class="col-xs-1">
       <h3 class="text-right">
-        <a href="02-next-episode.html"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span><span class="sr-only">next episode</span></a>
+        <a href="index.html"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span><span class="sr-only">next episode</span></a>
       </h3>
     </div>
   </div>
@@ -330,7 +346,7 @@
       by <a href="https://softwarecarpentry.org">Software Carpentry Foundation</a>
     </div>
     <div class="col-md-6 help-links pull-right" align="right">
-      <a href="https://github.com/carpentries/sandpaper/edit/main/episodes/01-introduction.Rmd" data-checker-ignore>Edit on GitHub</a>
+      <a href="https://github.com/carpentries/sandpaper/edit/main/episodes/02-next-episode.Rmd" data-checker-ignore>Edit on GitHub</a>
       /
       <a href="https://github.com/carpentries/sandpaper/blob/main/CONTRIBUTING.md" data-checker-ignore>Contributing</a>
       /
